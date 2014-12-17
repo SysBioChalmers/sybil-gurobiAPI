@@ -1,0 +1,10 @@
+import(gurobi)
+importFrom("sybil", optObj)
+
+exportClass("optObj_sybilGUROBI")
+
+export(
+checkSolutionStatus,
+getReturnString,
+getStatusString
+)
