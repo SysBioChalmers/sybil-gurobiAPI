@@ -1,5 +1,7 @@
 import(gurobi)
 importFrom("sybil", optObj)
+import(methods)
+import(Matrix)
 
 exportClass("optObj_sybilGUROBI")
 

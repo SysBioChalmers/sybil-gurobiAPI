@@ -245,7 +245,7 @@ setMethod("addRowsToProb", signature(lp = "optObj_sybilGUROBI"),
 
         
         for (k in seq(along = i)) {
-            ltype <- switch(type[k],
+            ltype <- switch(EXPR = type[k],
                             "L" = { ">=" },
                             "U" = { "<=" },
                             "E" = { "=" },
@@ -391,7 +391,7 @@ setMethod("loadLPprob", signature(lp = "optObj_sybilGUROBI"),
         stopifnot(is(mat, "Matrix"))
 
         crtype <- sapply(rtype,
-                         function(x) switch(x,
+                         function(x) switch(EXPR = x,
                                             "L" = { ">=" },
                                             "U" = { "<=" },
                                             "E" = { "="  },

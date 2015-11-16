@@ -7,6 +7,14 @@
 \newcommand{\CRANpkg}{\href{http://CRAN.R-project.org/package=#1}{\pkg{#1}}}
 
 % ---------------------------------------------------------------------------- %
+\section{Changes in version 1.0.5 2015-11-16}{
+  \itemize{
+    \item switch statemens need explicit name of EXPR
+    \item changes on imports
+  }
+}
+
+% ---------------------------------------------------------------------------- %
 \section{Changes in version 1.0.4 2013-07-23}{
   \itemize{
     \item compatibility update to sybil version 1.2.2
