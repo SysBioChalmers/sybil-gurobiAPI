@@ -7,6 +7,15 @@
 \newcommand{\CRANpkg}{\href{http://CRAN.R-project.org/package=#1}{\pkg{#1}}}
 
 % ---------------------------------------------------------------------------- %
+\section{Changes in version 1.0.6 2018-09-24}{
+  \itemize{
+    \item maintainer change version 1.0.6
+    \item changed \code{representation(grb = "character"} in class \code{optObj_sybilGUROBI}
+          into \code{slots = c(grb = "character")"") 
+  }
+}
+
+% ---------------------------------------------------------------------------- %
 \section{Changes in version 1.0.5 2015-11-16}{
   \itemize{
     \item switch statemens need explicit name of EXPR

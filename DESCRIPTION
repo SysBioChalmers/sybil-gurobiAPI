@@ -1,12 +1,13 @@
 Package: sybilGUROBI
 Type: Package
 Title: Gurobi support for sybil
-Version: 1.0.5
-Date: 2015-11-16
-Authors@R: c(person("Gabriel", "Gelius-Dietrich", role = c("aut", "cre"), email = "geliudie@uni-duesseldorf.de"))
+Version: 1.0.6
+Date: 2018-09-24
+Authors@R: c(person("Mayo", "Roettger", role = "cre", email = "mayo.roettger@hhu.de"),
+    person("Gabriel", "Gelius-Dietrich", role = "aut", email = "geliudie@uni-duesseldorf.de"))
 Depends: R (>= 2.14.2), sybil (>= 1.2.2), gurobi, Matrix, methods
 Description: Gurobi support for sybil
 License: GPL-3
-Packaged: 2015-11-16 11:00:00 UTC; jonathan
-Author: Gabriel Gelius-Dietrich [aut, cre]
-Maintainer: Gabriel Gelius-Dietrich <geliudie@uni-duesseldorf.de>
+Packaged: 2018-09-24 09:25:00 UTC; mayo
+Author: Gabriel Gelius-Dietrich [aut]
+Maintainer: Mayo Roettger <mayo.roettger@hhu.de>

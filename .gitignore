@@ -3,3 +3,7 @@
 
 # ignore build r package:
 sybil_*.tar.gz
+
+# ignore Mac OS X Finder databases:
+.DS_Store
+

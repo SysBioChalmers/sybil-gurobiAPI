@@ -27,7 +27,9 @@
 #------------------------------------------------------------------------------#
 
 setClass(Class = "optObj_sybilGUROBI",
-         representation(grb = "character"),
+         slots = c(
+                 grb = "character"
+                 ),
          contains = "optObj")
 
 
