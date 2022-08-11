@@ -1,6 +1,6 @@
 # sybil-gurobiAPI
 
-This provides Gurobi support for [sybil](github.com/SysBioChalmers/sybil).
+This provides Gurobi support for [sybil](https://github.com/SysBioChalmers/sybil).
 
 If you're facing any problems, please open an [issue](issues/new) or a [discussion](/discusions/new).
 
