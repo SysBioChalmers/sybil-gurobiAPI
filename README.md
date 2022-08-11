@@ -1,4 +1,7 @@
-sybilGUROBI
-===========
+# sybil-gurobiAPI
 
-Gurobi support for sybil
+This provides Gurobi support for [sybil](https://github.com/SysBioChalmers/sybil).
+
+If you're facing any problems, please open an [issue](issues/new) or a [discussion](/discusions/new).
+
+_Note_: This repository was previously hosted at https://gitlab.cs.uni-duesseldorf.de/general/ccb/sybilGUROBI .
